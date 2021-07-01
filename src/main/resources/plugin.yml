@@ -1,0 +1,12 @@
+name: OfflineEveryone
+version: ${project.version}
+main: net.kunmc.lab.offlineeveryone.OfflineEveryone
+authors: [Kamesuta]
+
+permissions:
+  offlineeveryone:
+    default: op
+
+commands:
+  everyone:
+    permission: offlineeveryone
